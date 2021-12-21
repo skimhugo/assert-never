@@ -3,16 +3,16 @@
 Helper function for [exhaustive checks][exhaustive-checks] of discriminated
 unions in TypeScript.
 
-## Installation
+## Installation for npm
 
 ```
 npm install --save assert-never
 ```
 
-## Usage
+## Usage for Deno
 
 ```ts
-import {assertNever} from "assert-never";
+import {assertNever} from "https://deno.land/x/assert_never@v1.2.2/mod.ts";
 
 type A = {type: 'a'};
 type B = {type: 'b'};
