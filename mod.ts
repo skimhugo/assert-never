@@ -25,7 +25,7 @@
  */
 export function assertNever(value: never, noThrow?: boolean): never {
   if (noThrow) {
-    return value
+    return value;
   }
 
   throw new Error(

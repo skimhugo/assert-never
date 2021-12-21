@@ -9,7 +9,5 @@
     "noImplicitAny": true,
     "strictNullChecks": true
   },
-  "files": [
-    "index.ts"
-  ]
+  "files": ["mod.ts"]
 }
